@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: transparent;
+}
+
+select, option {
+  background-color: #1e293b; /* ou un autre fond foncé */
+  color: white;
+}
