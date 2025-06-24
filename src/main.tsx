@@ -7,7 +7,7 @@ import Home from './Home';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/secure-wifi-qr/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/generate" element={<App />} />
